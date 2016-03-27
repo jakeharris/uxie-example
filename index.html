@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html, body {
+        margin: 0; padding: 0;
+        background-color: white;
+      }
+      header {
+        background-color: #ea2253;
+        color: white;
+        text-align: center;
+        padding: 5rem;
+      }
+      h1, h2, h3,
+      h4, h5, h6 {
+        margin: 0; padding: 0;
+        font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+      }
+      section {
+        padding: 5rem;
+      }
+      button {
+        border-radius: 0;
+        background-color: #ea2253;
+        color: white;
+        border: none;
+        box-shadow: 6px 6px 0 wheat;
+        padding: 3rem;
+        font-size: 3rem;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Uxie.</h1>
+      <p>A whole new way to see UX.</p>
+    </header>
+    <section>
+      <button>Click me and check your console!</button>
+    </section>
+    
+    
+    <script src="uxie.js"></script>
+    <script>
+      var Uxie = require('Uxie')
+      var ux = new Uxie()
+    </script>
+  </body>
+</html>
